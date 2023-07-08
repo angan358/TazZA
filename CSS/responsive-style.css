@@ -21,3 +21,37 @@
         padding: 0.25rem 0.5rem;
     }
 }
+
+/* Banner Section======= */
+/* Media Query 991px  */
+/* General CSS */
+@media(max-width:991px){
+
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section{
+
+        padding-top:12.5rem ;
+        padding-bottom:3rem;
+        
+    }
+}
+/* media query for 767px */
+@media (max-width:767px){
+    /* general CSS */
+    body,html{
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+}
+
+/* media query 590px */
+@media (max-width:590px){
+    /* general CSS */
+    body,html{
+        font-size:7px;
+    }
+}
