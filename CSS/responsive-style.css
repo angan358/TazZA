@@ -20,6 +20,12 @@
     .header .header_right span{
         padding: 0.25rem 0.5rem;
     }
+
+    /* banner section */
+
+    .banner_section .carousel-item{
+        height: 90vh;
+    }
 }
 
 /* Banner Section======= */
@@ -46,6 +52,15 @@
     .section-subtitle{
         max-width: 80%;
     }
+
+    /* Banner Section */
+    .banner_section{
+        min-height: 70vh;
+
+    }
+    .banner_section .carousel-item{
+        height: 70vh;
+    }
 }
 
 /* media query 590px */
@@ -54,4 +69,8 @@
     body,html{
         font-size:7px;
     }
+
+
 }
+
+
